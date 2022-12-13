@@ -36,4 +36,4 @@ _id, category
 - buat db dengan menggunakan db.createCollection("barang")
 - masukan juga data barang sebagai berikut :
 category> db.barang.insert([{"id": "1", "title": "Yamaha", "harga": "100000"}, {"id": "2", "title": "Supra", "harga": "150000"}, {"id": "3", "title": "Subaru", "harga": "250000"}, {"id": "4", "title": "Kijang", "harga": "75000"}])
-= cek data dengan menggunakan db.barang.find()
+- cek data dengan menggunakan db.barang.find()
